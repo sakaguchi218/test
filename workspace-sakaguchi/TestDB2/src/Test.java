@@ -7,5 +7,7 @@ public static void main(String[] args){
 	dao.selectByName("taro");
 	dao.selectByPassword("123");
 	dao.updateUserNameByUserName("taro","saburo");
+	dao.insert(4, "shiro", "012");
+	dao.delete("shiro");
 }
 }
